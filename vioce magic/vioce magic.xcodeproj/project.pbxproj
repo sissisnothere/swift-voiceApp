@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2EA0A351B9E60690064941D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0A341B9E60690064941D /* AppDelegate.swift */; };
+		D2EA0A371B9E60690064941D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0A361B9E60690064941D /* ViewController.swift */; };
+		D2EA0A3A1B9E60690064941D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2EA0A381B9E60690064941D /* Main.storyboard */; };
+		D2EA0A3C1B9E60690064941D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2EA0A3B1B9E60690064941D /* Images.xcassets */; };
+		D2EA0A481B9E60690064941D /* vioce_magicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EA0A471B9E60690064941D /* vioce_magicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2EA0A421B9E60690064941D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2EA0A271B9E60690064941D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2EA0A2E1B9E60690064941D;
+			remoteInfo = "vioce magic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2EA0A2F1B9E60690064941D /* vioce magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vioce magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EA0A331B9E60690064941D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EA0A341B9E60690064941D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2EA0A361B9E60690064941D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2EA0A391B9E60690064941D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2EA0A3B1B9E60690064941D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2EA0A411B9E60690064941D /* vioce magicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vioce magicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EA0A461B9E60690064941D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2EA0A471B9E60690064941D /* vioce_magicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vioce_magicTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2EA0A2C1B9E60690064941D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EA0A3E1B9E60690064941D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2EA0A261B9E60690064941D = {
+			isa = PBXGroup;
+			children = (
+				D2EA0A311B9E60690064941D /* vioce magic */,
+				D2EA0A441B9E60690064941D /* vioce magicTests */,
+				D2EA0A301B9E60690064941D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2EA0A301B9E60690064941D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0A2F1B9E60690064941D /* vioce magic.app */,
+				D2EA0A411B9E60690064941D /* vioce magicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2EA0A311B9E60690064941D /* vioce magic */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0A341B9E60690064941D /* AppDelegate.swift */,
+				D2EA0A361B9E60690064941D /* ViewController.swift */,
+				D2EA0A381B9E60690064941D /* Main.storyboard */,
+				D2EA0A3B1B9E60690064941D /* Images.xcassets */,
+				D2EA0A321B9E60690064941D /* Supporting Files */,
+			);
+			path = "vioce magic";
+			sourceTree = "<group>";
+		};
+		D2EA0A321B9E60690064941D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0A331B9E60690064941D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2EA0A441B9E60690064941D /* vioce magicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0A471B9E60690064941D /* vioce_magicTests.swift */,
+				D2EA0A451B9E60690064941D /* Supporting Files */,
+			);
+			path = "vioce magicTests";
+			sourceTree = "<group>";
+		};
+		D2EA0A451B9E60690064941D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA0A461B9E60690064941D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2EA0A2E1B9E60690064941D /* vioce magic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EA0A4B1B9E60690064941D /* Build configuration list for PBXNativeTarget "vioce magic" */;
+			buildPhases = (
+				D2EA0A2B1B9E60690064941D /* Sources */,
+				D2EA0A2C1B9E60690064941D /* Frameworks */,
+				D2EA0A2D1B9E60690064941D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vioce magic";
+			productName = "vioce magic";
+			productReference = D2EA0A2F1B9E60690064941D /* vioce magic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2EA0A401B9E60690064941D /* vioce magicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2EA0A4E1B9E60690064941D /* Build configuration list for PBXNativeTarget "vioce magicTests" */;
+			buildPhases = (
+				D2EA0A3D1B9E60690064941D /* Sources */,
+				D2EA0A3E1B9E60690064941D /* Frameworks */,
+				D2EA0A3F1B9E60690064941D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2EA0A431B9E60690064941D /* PBXTargetDependency */,
+			);
+			name = "vioce magicTests";
+			productName = "vioce magicTests";
+			productReference = D2EA0A411B9E60690064941D /* vioce magicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2EA0A271B9E60690064941D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Sissi;
+				TargetAttributes = {
+					D2EA0A2E1B9E60690064941D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D2EA0A401B9E60690064941D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D2EA0A2E1B9E60690064941D;
+					};
+				};
+			};
+			buildConfigurationList = D2EA0A2A1B9E60690064941D /* Build configuration list for PBXProject "vioce magic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2EA0A261B9E60690064941D;
+			productRefGroup = D2EA0A301B9E60690064941D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2EA0A2E1B9E60690064941D /* vioce magic */,
+				D2EA0A401B9E60690064941D /* vioce magicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2EA0A2D1B9E60690064941D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EA0A3A1B9E60690064941D /* Main.storyboard in Resources */,
+				D2EA0A3C1B9E60690064941D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EA0A3F1B9E60690064941D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2EA0A2B1B9E60690064941D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EA0A371B9E60690064941D /* ViewController.swift in Sources */,
+				D2EA0A351B9E60690064941D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EA0A3D1B9E60690064941D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2EA0A481B9E60690064941D /* vioce_magicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2EA0A431B9E60690064941D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2EA0A2E1B9E60690064941D /* vioce magic */;
+			targetProxy = D2EA0A421B9E60690064941D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2EA0A381B9E60690064941D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2EA0A391B9E60690064941D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2EA0A491B9E60690064941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2EA0A4A1B9E60690064941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2EA0A4C1B9E60690064941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "vioce magic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2EA0A4D1B9E60690064941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "vioce magic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D2EA0A4F1B9E60690064941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vioce magicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vioce magic.app/vioce magic";
+			};
+			name = Debug;
+		};
+		D2EA0A501B9E60690064941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vioce magicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vioce magic.app/vioce magic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2EA0A2A1B9E60690064941D /* Build configuration list for PBXProject "vioce magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EA0A491B9E60690064941D /* Debug */,
+				D2EA0A4A1B9E60690064941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2EA0A4B1B9E60690064941D /* Build configuration list for PBXNativeTarget "vioce magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EA0A4C1B9E60690064941D /* Debug */,
+				D2EA0A4D1B9E60690064941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2EA0A4E1B9E60690064941D /* Build configuration list for PBXNativeTarget "vioce magicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2EA0A4F1B9E60690064941D /* Debug */,
+				D2EA0A501B9E60690064941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2EA0A271B9E60690064941D /* Project object */;
+}
